@@ -1,0 +1,105 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="132,-236" rotation="0" hflip="1" vflip="1" label="Processing" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="1_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="1_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,0,0,5,1,1,0,0,0,0,0," Frequency="16 MHz" Program="../CMP/Embedded/Drivers/PROJECT/bin/PROJECT.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Subcircuit" CircId="Uno-201" mainComp="false" Show_id="true" Show_Val="false" Pos="-196,-236" rotation="0" hflip="-1" vflip="1" label="HMI" idLabPos="31,-19" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="1_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="1_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,69,94,2,0,0,0,0,0,0,0,0,0," Frequency="16 MHz" Program="../CMP/Embedded/Drivers/PROJECT/bin/PROJECT.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="LedBar" CircId="LedBar-233" mainComp="false" Show_id="false" Show_Val="false" Pos="-384,-196" rotation="0" hflip="-1" vflip="1" label="LedBar-233" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Size="5 _Leds" Color="Green" Grounded="true" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="AudioOut" CircId="AudioOut-235" mainComp="false" Show_id="false" Show_Val="false" Pos="44,-124" rotation="0" hflip="1" vflip="1" label="AudioOut-235" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="8 Ω" />
+
+<item itemtype="Ground" CircId="Ground-321" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,-156" rotation="-450" hflip="-1" vflip="1" label="Ground-321" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-329" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,-288" rotation="0" hflip="1" vflip="1" label="Seven Segment-329" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" NumDisplays="1 _7seg" Color="Green" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="1 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-390" mainComp="false" Show_id="false" Show_Val="false" Pos="-124,-172" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-390" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Push" CircId="Push-644" mainComp="false" Show_id="true" Show_Val="false" Pos="-232,-272" rotation="-90" hflip="-1" vflip="1" label="GENERATE" idLabPos="106,31" labelrot="-90" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Push" CircId="Push-697" mainComp="false" Show_id="true" Show_Val="false" Pos="-280,-272" rotation="-90" hflip="-1" vflip="1" label="NEXT" idLabPos="105,24" labelrot="-90" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-699" mainComp="false" Show_id="false" Show_Val="false" Pos="-232,-332" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-699" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Push" CircId="Push-759" mainComp="false" Show_id="true" Show_Val="false" Pos="-324,-272" rotation="-90" hflip="-1" vflip="1" label="PREVIOUS" idLabPos="105,45" labelrot="-90" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Ground" CircId="Ground-839" mainComp="false" Show_id="false" Show_Val="false" Pos="-112,-232" rotation="-540" hflip="-1" vflip="-1" label="Ground-839" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-932" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,-332" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-932" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1162" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-332" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-1162" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Servo" CircId="Servo-1220" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-156" rotation="0" hflip="1" vflip="1" label="Servo-1220" idLabPos="-45,-42" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="0.2 _sec/60º" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" />
+
+<item itemtype="Switch" CircId="Switch-1225" mainComp="false" Show_id="false" Show_Val="false" Pos="8,-68" rotation="0" hflip="1" vflip="1" label="Switch-1225" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Ground" CircId="Ground-1230" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,-52" rotation="0" hflip="1" vflip="1" label="Ground-1230" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="LedBar" CircId="LedBar-1262" mainComp="false" Show_id="false" Show_Val="false" Pos="108,-180" rotation="0" hflip="-1" vflip="1" label="LedBar-1262" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Size="3 _Leds" Color="Green" Grounded="true" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Connector" uid="connector-1274" startpinid="Uno-201-2" endpinid="Push-644-pinP0" pointList="-204,-204,-232,-204,-232,-256" />
+
+<item itemtype="Connector" uid="connector-1275" startpinid="Seven Segment-329-pin_a" endpinid="Uno-201-4" pointList="-144,-312,-196,-312,-196,-188,-204,-188" />
+
+<item itemtype="Connector" uid="connector-1276" startpinid="Seven Segment-329-pin_b" endpinid="Uno-201-5" pointList="-144,-304,-192,-304,-192,-180,-204,-180" />
+
+<item itemtype="Connector" uid="connector-1277" startpinid="Seven Segment-329-pin_c" endpinid="Uno-201-6" pointList="-144,-296,-188,-296,-188,-172,-204,-172" />
+
+<item itemtype="Connector" uid="connector-1278" startpinid="Seven Segment-329-pin_d" endpinid="Uno-201-7" pointList="-144,-288,-184,-288,-184,-164,-204,-164" />
+
+<item itemtype="Connector" uid="connector-1279" startpinid="Seven Segment-329-pin_f" endpinid="Uno-201-12" pointList="-144,-272,-176,-272,-176,-116,-204,-116" />
+
+<item itemtype="Connector" uid="connector-1280" startpinid="Seven Segment-329-pin_g" endpinid="Uno-201-13" pointList="-144,-264,-172,-264,-172,-108,-204,-108" />
+
+<item itemtype="Connector" uid="connector-1281" startpinid="Uno-201-11" endpinid="Seven Segment-329-pin_e" pointList="-204,-124,-180,-124,-180,-280,-144,-280" />
+
+<item itemtype="Connector" uid="connector-1282" startpinid="Seven Segment-329-pin_commona" endpinid="Ground-839-Gnd" pointList="-112,-256,-112,-248" />
+
+<item itemtype="Connector" uid="connector-1283" startpinid="Uno-1-GND2" endpinid="Uno-201-GND2" pointList="140,-100,-204,-100" />
+
+<item itemtype="Connector" uid="connector-1284" startpinid="Uno-1-0" endpinid="Uno-201-1" pointList="140,-220,-64,-220,-64,-212,-204,-212" />
+
+<item itemtype="Connector" uid="connector-1285" startpinid="Uno-1-1" endpinid="Uno-201-0" pointList="140,-212,-16,-212,-16,-220,-204,-220" />
+
+<item itemtype="Connector" uid="connector-1286" startpinid="LedBar-233-led0-pinP" endpinid="Uno-201-A5" pointList="-368,-220,-348,-220" />
+
+<item itemtype="Connector" uid="connector-1287" startpinid="LedBar-233-led1-pinP" endpinid="Uno-201-A4" pointList="-368,-212,-348,-212" />
+
+<item itemtype="Connector" uid="connector-1288" startpinid="LedBar-233-led2-pinP" endpinid="Uno-201-A3" pointList="-368,-204,-348,-204" />
+
+<item itemtype="Connector" uid="connector-1289" startpinid="LedBar-233-led3-pinP" endpinid="Uno-201-A2" pointList="-368,-196,-348,-196" />
+
+<item itemtype="Connector" uid="connector-1290" startpinid="Push-644-switch0pinN" endpinid="Fixed Voltage-699-outnod" pointList="-232,-288,-232,-316" />
+
+<item itemtype="Connector" uid="connector-1291" startpinid="Fixed Voltage-932-outnod" endpinid="Push-697-switch0pinN" pointList="-280,-316,-280,-288" />
+
+<item itemtype="Connector" uid="connector-1292" startpinid="Push-697-pinP0" endpinid="Uno-201-3" pointList="-280,-256,-280,-196,-204,-196" />
+
+<item itemtype="Connector" uid="connector-1293" startpinid="AudioOut-235-lPin" endpinid="Uno-201-10" pointList="28,-132,-204,-132" />
+
+<item itemtype="Connector" uid="connector-1294" startpinid="LedBar-233-led4-pinP" endpinid="Uno-201-A1" pointList="-368,-188,-348,-188" />
+
+<item itemtype="Connector" uid="connector-1296" startpinid="Fixed Voltage-1162-outnod" endpinid="Push-759-switch0pinN" pointList="-324,-316,-324,-288" />
+
+<item itemtype="Connector" uid="connector-1297" startpinid="Fixed Voltage-390-outnod" endpinid="Servo-1220-in0" pointList="-108,-172,-84,-172" />
+
+<item itemtype="Connector" uid="connector-1298" startpinid="Ground-321-Gnd" endpinid="Servo-1220-in1" pointList="-100,-156,-84,-156" />
+
+<item itemtype="Connector" uid="connector-1299" startpinid="Servo-1220-in2" endpinid="Uno-201-9" pointList="-84,-140,-204,-140" />
+
+<item itemtype="Connector" uid="connector-1300" startpinid="AudioOut-235-rPin" endpinid="Switch-1225-switch0pinN" pointList="28,-124,28,-68,24,-68" />
+
+<item itemtype="Connector" uid="connector-1301" startpinid="Ground-1230-Gnd" endpinid="Switch-1225-pinP0" pointList="-28,-68,-8,-68" />
+
+<item itemtype="Connector" uid="connector-1304" startpinid="LedBar-1262-led1-pinP" endpinid="Uno-1-3" pointList="124,-196,140,-196" />
+
+<item itemtype="Connector" uid="connector-1306" startpinid="LedBar-1262-led2-pinP" endpinid="Uno-1-4" pointList="124,-188,140,-188" />
+
+<item itemtype="Connector" uid="connector-1271" startpinid="Uno-1-2" endpinid="LedBar-1262-led0-pinP" pointList="140,-204,124,-204" />
+
+<item itemtype="Connector" uid="connector-1295" startpinid="Push-759-pinP0" endpinid="Uno-201-8" pointList="-324,-256,-324,-148,-204,-148" />
+
+</circuit>
