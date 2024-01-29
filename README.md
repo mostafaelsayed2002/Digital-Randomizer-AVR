@@ -1,4 +1,4 @@
-# Digital Randomizer 
+# Digital Randomizer README
 
 ## Overview
 
@@ -42,24 +42,12 @@ The Digital Randomizer is a digital device designed to generate random integer n
    - Upon system reset or power cycle, the system resumes from the last saved state.
 
 ## Project Objectives
-
-1. **Randomizer:**
-   - Develop a digital Randomizer using ATmega328P microcontrollers.
-
-2. **Random Number Algorithm:**
-   - Support both pseudo and real random number generation algorithms.
-
-3. **Display:**
-   - Utilize one 7-segment display and 5 LEDs to visually represent the generated number.
-
-4. **Audio Feedback:**
-   - Integrate a buzzer to provide audible indications with a signal bias from the potentiometer's read value.
-
-5. **User Interaction:**
-   - Design user-friendly controls with 3 push buttons for operating the Digital Randomizer.
-
-6. **Low Power Consumption:**
-   - Optimize the device for low power consumption to prolong battery life.
+1. **Randomizer:** Develop a digital Randomizer using ATmega328P microcontrollers.
+2. **Random Number Algorithm:**  Support both pseudo and real random number generation algorithms.
+3. **Display:** Utilize one 7-segment display and 5 LEDs to visually represent the generated number.
+4. **Audio Feedback:** Integrate a buzzer to provide audible indications with a signal bias from the potentiometer's read value.
+5. **User Interaction:** Design user-friendly controls with 3 push buttons for operating the Digital Randomizer.
+6. **Low Power Consumption:** Optimize the device for low power consumption to prolong battery life.
 
 
 ## Prototype Schematic
